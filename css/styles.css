@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster',sans-serif;
+}
+.Xlarge{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+nav{
+    padding:10px 1300px 5px 20px;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-around ;
+}
+nav h1{
+    position: absolute;
+    left:605px;
+    top:15px;
+    color: whitesmoke;
+    font-family: 'Lobster', sans-serif ;
+    font-weight: lighter;
+    font-size: 40px;
+}
+nav img{
+    position:absolute;
+    width:5%;
+    height:60px;
+    left:10px;
+}
+nav ul li{
+    position: absolute;
+    display: inline-block;
+    left:1000px;
+    top:30px;
+    font-size:20px;
+    font-family: 'Poppins' , sans-serif;
+}
+
+nav ul li a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.navlist1{
+    position: absolute;
+    left:1125px;
+}
+.navlist2{
+    position:absolute;
+    left:260px;
+}
+.background{
+    width: 100%;
+    height: 250%;
+}
+.Home{
+    position: absolute;
+    top:200px;
+    left:300px;
+
+}
+.Home h1{
+    font-family: 'Poppins';
+    font-size: 160px;
+    font-weight: 600;
+    color: white;
+    transition: 500ms;
+}
+.Home h1:hover{
+    -webkit-text-stroke: 2px rgb(250,250,250);
+    color:transparent;
+    cursor: pointer;
+}
+.button1 {
+    font-family: 'Poppins',sans-serif;
+    padding: 20px 40px 20px 40px ;
+    border-radius: 40px;
+    border-color: white;
+    font-size: 20px;
+    background-color: transparent;
+    position: absolute;
+    top:280px;
+    transition: 500ms;
+    color:whitesmoke;
+}
+.button1:hover{
+    border-style: double;
+    background-color: rgba(250,250,250,0.3);
+    cursor: pointer;
+}
+.button2 {
+    font-family: 'Poppins',sans-serif;
+    padding: 20px 25px 20px 25px ;
+    border-radius: 40px;
+    border-color: white;
+    font-size: 20px;
+    background-color: transparent;
+    position: absolute;
+    left:650px;
+    top:280px;
+    transition: 500ms;
+    color:whitesmoke;
+}
+.button2:hover{
+    border-style: double;
+    background-color: rgba(250,250,250,0.3);
+    cursor: pointer;
+}
+.Home p{
+    position: absolute;
+    top:400px;
+    font-size:50px;
+    font-weight: lighter;
+    top:450px;
+    left:160px;
+    color: whitesmoke;
+    transition: 500ms;
+}
+.Home p:hover{
+    -webkit-text-stroke: 2px rgb(250,250,250);
+    color:transparent;
+    cursor: pointer;
+}
+.XXlarge{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 0 0 25px;
+}
+.contact{
+    margin-bottom:35px ;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+}
+.instagram{
+    margin-right:40px;
+}
+.twitter{
+    margin-left:40px;
+}
+.contact h2{
+    margin-left:25px;
+}
+.locations{
+    margin-bottom:35px;
+}
+.locations h2{
+    margin-left:100px;
+}

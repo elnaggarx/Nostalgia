@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.Xlarge{
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+.Xlarge video{
+    position: fixed;
+    min-width:100vw;
+    min-height:100vw;
+}
+nav{
+    padding:10px 1300px 5px 20px;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-around ;
+    z-index: 6;
+}
+nav h1{
+    position: absolute;
+    left:15px;
+    top:15px;
+    color: black;
+    font-family: 'Lobster', sans-serif ;
+    font-weight: lighter;
+    font-size: 40px;
+}
+nav img{
+    position:absolute;
+    width:5%;
+    height:50px;
+    left:1270px;
+}
+nav ul li{
+    position: absolute;
+    display: inline-block;
+    left:1000px;
+    top:30px;
+    font-size:20px;
+    font-family: 'Poppins' , sans-serif;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    z-index:6;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.navlist1{
+    position: absolute;
+    left:1045px;
+
+}
+.navlist2{
+    position:absolute;
+    left:190px;
+}
+table{
+    font-family: 'Poppins',sans-serif;
+    z-index: 6;
+    position: absolute;
+    top:33vh;
+    left:40vh;
+    width:60%;
+    height:350px;
+}
+th{
+    background-color: black;
+    color:whitesmoke;   
+}
+tr{
+    background-color: rgba(0,0,0,0.2);
+    color:white;
+}
+table select{
+    background-color: black;
+    color:whitesmoke;
+    padding:10px;
+    border-radius: 20px;
+    margin-left:180px;
+}

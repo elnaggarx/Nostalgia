@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.Xlarge{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+nav{
+    padding:10px 1300px 5px 20px;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-around ;
+    z-index: 6;
+}
+nav h1{
+    position: absolute;
+    left:15px;
+    top:15px;
+    color: black;
+    font-family: 'Lobster', sans-serif ;
+    font-weight: lighter;
+    font-size: 40px;
+}
+nav img{
+    position:absolute;
+    width:5%;
+    height:50px;
+    left:1270px;
+}
+nav ul li{
+    position: absolute;
+    display: inline-block;
+    left:1000px;
+    top:30px;
+    font-size:20px;
+    font-family: 'Poppins' , sans-serif;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.navlist1{
+    position: absolute;
+    left:1045px;
+
+}
+.navlist2{
+    position:absolute;
+    left:1145px;
+}
+.RL1{
+    width:100%;
+}
+.sliderone{
+    position: relative;
+    padding: 100px 0 2500px 0;
+}
+.sliderone ul{
+    list-style: none;
+}
+.sliderone img{
+    width: 30%;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 190px;
+    margin-bottom: 500px;
+    opacity:0;
+    z-index: 0;
+    left:500px;
+    transition: 200ms opacity ease-in-out;
+}
+#sliderone1{
+    opacity:1;
+}
+.carousel-button {
+    font-size: 50px;
+    background: rgba(250,250,250,0.5);
+    position: relative;
+    z-index: 2;
+    border: 1 solid;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 700ms;
+}
+#btnone1{
+    position: absolute;
+    left: 500px;
+    top:410px;
+}
+#btnone2{
+    position: absolute;
+    left:860px;
+    top:410px;
+}
+.carousel-button:hover ,
+.carousel-button:focus{
+    background: rgba(0,0,0,0.9);
+    border: 1px whitesmoke;
+    color:whitesmoke;
+}
+.sliderone h1{
+    position: absolute;
+    z-index: 6;
+    color:black;
+    font-family: 'Poppins', sans-serif ;
+    top:710px;
+    left:590px;
+}
+.addtocart{
+    background: white;
+    border: 2px solid black;
+    font-family: "Poppins",sans-serif;
+    padding: 20px 10px 20px 10px;
+    border-radius: 45px;
+    color:black;
+    transition: 500ms;
+    cursor: pointer;
+}
+.addtocart:hover{
+    background: black ;
+    font-weight: bolder;
+    color:white;
+}
+.sliderone .addtocart{
+    position: absolute;
+    top: 770px;
+    left:652px;
+}
+.slidertwo{
+    position: relative;
+}
+.slidertwo ul{
+    list-style: none;
+}
+.slidertwo img{
+    width: 30%;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    bottom: 725px;
+    margin-bottom: 500px;
+    opacity:0;
+    z-index: 0;
+    left:500px;
+    transition: 200ms opacity ease-in-out;
+}
+#slidertwo1{
+    opacity:1;
+}
+#btntwo1{
+    position:absolute;
+    bottom:1425px;
+    left:500px;
+}
+#btntwo2{
+    position:absolute;
+    bottom:1425px;
+    left:860px;
+}
+.slidertwo h1{
+    position: absolute;
+    z-index: 6;
+    color:black;
+    font-family: 'Poppins', sans-serif ;
+    bottom:1150px;
+    left:620px;
+}
+.slidertwo .addtocart{
+    position: absolute;
+    bottom:1072px;
+    left:652px;
+}
+.one1{
+    position: relative;
+    padding:0 800px 400px 400px;
+}
+.one1 img{
+    height: 500px;
+    width:30%;
+    position: absolute;
+    bottom:910px;
+    left:70px;
+    opacity:0;
+    transition: 500ms opacity ease-in-out;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#one11{
+    opacity:1;
+}
+#one11:hover{
+    opacity:0;
+}
+#one12:hover{
+    opacity:1;
+}
+.one1 h1{
+    position: absolute;
+    bottom: 850px;
+    font-family:'Poppins',sans-serif;
+    left:130px;
+}
+.one1 .addtocart{
+    position: absolute;
+    bottom:775px;
+    left:215px;
+}
+.one2{
+    position: relative;
+}
+.one2 img{
+    width:30%;
+    height:500px;
+    position: absolute;
+    left:70px;
+    bottom:230px;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0;
+    transition: 500ms opacity ease-in-out;
+}
+#one21{
+    opacity:1;
+}
+#one21:hover{
+    opacity:0;
+}
+#one22:hover{
+    opacity:1;
+}
+.one2 h1{
+    position: absolute;
+    font-family: 'Poppins',sans-serif;
+    bottom:160px;
+    left:140px;
+}
+.one2 .addtocart{
+    position:absolute;
+    bottom:80px;
+    left: 215px;
+}
+.two1{
+    position: relative;
+}
+.two1 img{
+    height:500px;
+    width:30%;
+    position: absolute;
+    bottom:910px;
+    right:70px;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0;
+    transition: 500ms opacity ease-in-out;
+}
+#two11{
+    opacity: 1;
+}
+#two11:hover{
+    opacity:0;
+}
+#two12:hover{
+    opacity:1;
+}
+.two1 h1{
+    position: absolute;
+    font-family: 'Poppins',sans-serif;
+    bottom:850px;
+    right:160px;
+}
+.two1 .addtocart{
+    position: absolute;
+    bottom:776px;
+    right:215px;
+}
+.two2{
+    position: relative;
+}
+.two2 img{
+    position: absolute;
+    height: 500px;
+    width:30%;
+    border-radius: 20px;
+    overflow: hidden;
+    bottom:230px;
+    right:70px;
+    opacity: 0;
+    transition: 500ms opacity ease-in-out;
+}
+#two21{
+    opacity: 1;
+}
+#two21:hover{
+    opacity:0;
+}
+#two22:hover{
+    opacity:1;
+}
+.two2 h1{
+    position: absolute;
+    bottom:155px;
+    right:149px;
+    font-family: 'Poppins',sans-serif;
+}
+.two2 .addtocart{
+    position: absolute;
+    bottom:80px;
+    right:215px;
+}
+.hoss{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.hf1{
+    height:663px;
+    width:50%;
+    margin-left: 30px;
+}
+.hf2{
+    display: flex;
+    flex-direction: column;
+}
+.hf2 img{
+    height:500px;
+    width:30%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+    transition: 500ms opacity ease-in-out;
+    top:3980px;
+    left:850px;
+    z-index: 12;
+}
+.hf2 h1{
+    position: absolute;
+    top:4490px;
+    left:965px;
+    font-family: 'Poppins',sans-serif;
+}
+.hf2 .addtocart{
+    position: absolute;
+    top:4540px;
+    left:1018px;
+}
+#hoss1{
+    opacity: 1;
+}
+#hoss1:hover{
+    opacity: 0;
+}
+#hoss2:hover{
+    opacity: 1;
+}
+.Al_Pacino{
+    display:flex;
+    margin-top: 300px;
+    overflow-x: hidden;
+}
+.alpa1{
+    order:2;
+    height: 700px;
+    width:50%;
+    margin-right: 120px;
+    position: absolute;
+    left:700px;
+    top:4850px;
+}
+.alpa1 h1{
+    margin-top:20px;
+    margin-left:110px;
+    font-family: 'Lobster',sans-serif;
+    font-weight: lighter;
+}
+.alpa2{
+    display: block;
+    order:1;
+    position: relative;
+    padding: 400px;
+}
+.alpa2 img{
+    position: absolute;
+    opacity: 0;
+    border-radius: 20px;
+    transition: 500ms opacity ease-in-out;
+    left: 180px;
+    top:10px;
+    height:500px;
+    width: 40%;
+}
+#alpa21 {
+    opacity: 1;
+}
+#alpa21:hover{
+    opacity:0;
+}
+#alpa22:hover{
+    opacity:1;
+}
+.alpa2 h1{
+    position: absolute;
+    top: 530px;
+    left:180px;
+    width:500%;
+    font-family: 'Poppins',sans-serif;
+}
+.alpa2 .addtocart{
+    position: absolute;
+    top:590px;
+    left:280px;
+}
+footer{
+    font-family: 'Lobster',sans-serif;
+}
+.foot{
+    width: 100%;
+}
+.XXlarge{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 0 0 25px;
+}
+.contact{
+    margin-bottom:35px ;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+}
+.instagram{
+    margin-right:40px;
+}
+.twitter{
+    margin-left:40px;
+}
+.contact h2{
+    margin-left:25px;
+}
+.locations{
+    margin-bottom:35px;
+}
+.locations h2{
+    margin-left:100px;
+}
